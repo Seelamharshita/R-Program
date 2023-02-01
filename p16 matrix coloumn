@@ -1,3 +1,5 @@
+16. Write a R program to create a 5 x 4 matrix , 3 x 3 matrix with labels and fill the matrix by rows and 2 × 2 matrix with labels and fill the matrix by columns. 
+
 m1 = matrix(1:20, nrow=5, ncol=4)
 print("5 × 4 matrix:")
 print(m1)
