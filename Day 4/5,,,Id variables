@@ -1,0 +1,2 @@
+t1=melt(airquality,id.vars=c("Month","Day"))
+print(head(t1))
