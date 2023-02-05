@@ -1,0 +1,2 @@
+t2=cast(t1, Month + Day ~ variable) 
+t2
