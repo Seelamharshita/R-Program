@@ -1,0 +1,9 @@
+. Write a R program to call the (built-in) dataset airquality. Check whether it is a data frame or not? Order the entire data frame by the first and second column.  remove the variables 'Solar.R' and 'Wind' and display the data frame.
+
+data = airquality
+print("Original data: Daily air quality measurements in New York, May to September 1973.")
+print(class(data))
+print(head(data,10))
+result = data[order(data[,1]),]
+print("Order the entire data frame by the first and second column:")
+print(result)
