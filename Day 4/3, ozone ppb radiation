@@ -1,0 +1,10 @@
+w=airquality
+#i)
+w1=length(w$Temp)
+w1
+s=0
+for (i in w$Temp)
+{
+  s=s+i
+}
+print(paste("mean of temp:",s/w1))
