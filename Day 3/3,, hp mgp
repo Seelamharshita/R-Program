@@ -1,0 +1,2 @@
+library(ggplot2)
+ggplot(mtcars,aes(x=hp,y=mpg,shape=factor(vs),col=factor(vs)))+geom_point()+facet_wrap(.~cyl)
