@@ -1,0 +1,2 @@
+c=cast(md,Diet~.,mode(d)) 
+print(c)
