@@ -1,0 +1,1 @@
+print(aggregate(mtcars$wt,list(mtcars$vs),mean))
