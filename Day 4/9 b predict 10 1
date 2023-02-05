@@ -1,0 +1,3 @@
+ndata=data.frame(Time = 10,Diet=1)
+prediction=predict(model,newdata = ndata)
+prediction
