@@ -1,0 +1,3 @@
+da=ChickWeight
+model=lm(weight ~ Time+factor(Diet),da=ChickWeight)
+summary(model)
