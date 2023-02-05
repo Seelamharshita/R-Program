@@ -1,0 +1,3 @@
+a=airquality
+a2=subset(w,select = c("Ozone","Solar.R","Month", "Day"))
+a
