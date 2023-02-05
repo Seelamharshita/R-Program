@@ -1,0 +1,4 @@
+x=a[,"Ozone"] 
+y=a[,"Solar.R"] 
+m1<- lm(x~y)
+m1
