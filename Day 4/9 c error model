@@ -1,0 +1,2 @@
+d1=da[da$Time==10&da$Diet==1,"weight"] - prediction
+d1
