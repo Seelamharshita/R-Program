@@ -1,0 +1,2 @@
+diet1=ChickWeight[ChickWeight$Diet == 1, ]
+  hist(diet1$weight, main = "Weight in Diet-1", xlab = "Weight (in grams)", ylab = "Frequency")
