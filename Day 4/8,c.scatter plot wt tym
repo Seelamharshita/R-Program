@@ -1,0 +1,6 @@
+library(ggplot2)
+  ggplot(ChickWeight, aes(x=Time, y=weight, color=Diet)) +
+    geom_point() +
+    ggtitle("Weight vs Time Grouped by Diet") +
+    xlab("Time (days)") +
+    ylab("Weight (grams)")
