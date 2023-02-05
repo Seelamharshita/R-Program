@@ -1,0 +1,5 @@
+da=ChickWeight
+library(dplyr)
+da%>%
+  group_by(Diet)%>%
+  arrange(weight)
