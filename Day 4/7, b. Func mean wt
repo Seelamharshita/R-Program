@@ -1,0 +1,2 @@
+c=cast(md,Diet~.,mean) 
+print(c)
