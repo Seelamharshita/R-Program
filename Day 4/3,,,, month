@@ -1,0 +1,9 @@
+q=0
+for (i in airquality$Wind) 
+{
+  if(i>17)
+  {
+    q=q+1
+  }
+}
+paste("Number of days wind more than 17mph :",q)
