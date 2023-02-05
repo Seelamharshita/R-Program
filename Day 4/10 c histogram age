@@ -1,0 +1,5 @@
+tomurder<- rowSums(a[, c("Murder"),drop=FALSE]) 
+max_state<-names(which.max(tomurder)) 
+min_state<-names(which.min(tomurder)) 
+print(paste("state with Maximum murder :",max_state)) 
+print(paste("state with Minimum murder :",min_state))
