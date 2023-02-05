@@ -1,0 +1,2 @@
+plot(x, y, main = "Air Quality",xlab = "Ozone", ylab = "Solar")
+abline(lm(x~y,u1=a),col="blue")
