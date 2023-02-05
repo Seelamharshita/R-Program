@@ -1,0 +1,2 @@
+library(ggplot2)
+ggplot(mtcars,aes(x=wt,y=disp,shape=factor(vs),col=factor(vs)))+geom_point()
