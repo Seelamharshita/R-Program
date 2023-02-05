@@ -1,0 +1,5 @@
+a=USArrests
+str(a)
+dim(a)
+summary(a)
+prediction
