@@ -1,0 +1,4 @@
+a=USArrests
+torapes<- rowSums(a[, c("Rape"),drop=FALSE])
+max_state<-names(which.max(torapes))
+print(max_state)
