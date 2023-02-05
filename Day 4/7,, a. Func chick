@@ -1,0 +1,3 @@
+library(reshape)
+md=melt(da,id=c("Time","Chick","Diet"))
+print(head(md)
