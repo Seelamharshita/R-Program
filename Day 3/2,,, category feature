@@ -1,0 +1,2 @@
+c=sapply(mtcars,function(x) class(x))
+ print(c)
