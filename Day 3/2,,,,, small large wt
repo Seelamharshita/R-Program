@@ -1,0 +1,2 @@
+print(aggregate(mtcars$wt,list(mtcars$vs),max))
+print(aggregate(mtcars$wt,list(mtcars$vs),min))
