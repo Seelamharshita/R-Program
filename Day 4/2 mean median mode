@@ -1,0 +1,4 @@
+A=c(90, 50, 70, 80, 70, 60, 20, 30,80, 90, 20)
+print(mean(A))
+print(median(A))
+print(sort(-table(A))[1])
