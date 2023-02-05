@@ -1,0 +1,4 @@
+da=ChickWeight
+summary(da)
+      boxplot(weight ~ Diet,da=ChickWeight,main ="Weight by
+Diet", xlab="Diet",ylab="Weight",col='red')
