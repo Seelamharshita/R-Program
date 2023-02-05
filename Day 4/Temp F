@@ -1,0 +1,11 @@
+a=min(airquality$Temp)
+a1=length(airquality$Temp)
+q=0
+for (i in 1:a1) 
+{
+  if(a==airquality$Temp[i])
+  {
+    print(paste("Coldest day :",airquality$Day[i]))
+    break
+  }
+}
