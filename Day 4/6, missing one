@@ -1,0 +1,13 @@
+library(dplyr)
+#i)
+a <-airquality
+missing_values <- colSums(is.na(a))
+for (i in 1:ncol(a)) {
+  if (missing_values[i]/nrow(a) < 0.1) {
+    a <- a[!is.na(a[,i]),]
+  } else {
+    mean_val <- mean(a[,i], na.rm = TRUE)
+    a[is.na(a[,i]),i] <- mean_val
+  }
+}
+print(a)
